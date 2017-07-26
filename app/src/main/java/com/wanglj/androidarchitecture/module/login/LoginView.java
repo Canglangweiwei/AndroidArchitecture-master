@@ -1,0 +1,11 @@
+package com.wanglj.androidarchitecture.module.login;
+
+import com.wanglj.androidarchitecture.data.remote.model.User;
+import com.wanglj.androidarchitecture.module.base.BaseLoadView;
+
+@SuppressWarnings("ALL")
+public interface LoginView extends BaseLoadView {
+    void canLogin(boolean canLogin);
+
+    void showUser(User user);
+}
